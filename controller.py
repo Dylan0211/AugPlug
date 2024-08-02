@@ -28,7 +28,6 @@ class PolicyNet(torch.nn.Module):
         self.lstm = torch.nn.LSTMCell(64 + 16, 64 + 16)
 
         self.decoder_dict = dict()
-        # note: 根据 policy 里参数的不同做不同 output size 的 decoder
         for mode, output_size in output_size_dict.items():
             decoder = torch.nn.Linear(64 + 16, output_size).to(device)
             self.decoder_dict.update({mode: decoder})
@@ -49,7 +48,6 @@ class PolicyNet(torch.nn.Module):
         for u in range(self.args.U[self.args.when_to_update[0]]):
             selected_log_probs = []
             actions = []
-            # note: 这里的 input 要不要 random？？？
             input = torch.zeros((1, 16), dtype=torch.float32).to(self.device)
             hidden = (torch.zeros((1, 64 + 16), dtype=torch.float32).to(self.device),
                       torch.zeros((1, 64 + 16), dtype=torch.float32).to(self.device))
