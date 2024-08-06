@@ -16,7 +16,7 @@
 
 ## How to apply AugPlug to support online BLF Models:
 
-<img width="433" alt="b7403ed856b3cf0d7fc5590cff82bf4" src="https://github.com/user-attachments/assets/9ddb0783-3a6f-4532-b4f0-f0d7c891a9d1">
+<img width="433" alt="augplug_1" src="https://github.com/user-attachments/assets/b7cc0629-2c2c-43a4-865d-d42aa6d123ca">
 
-<img width="461" alt="7ee3229ad6644185b104a5d06532a52" src="https://github.com/user-attachments/assets/f95f8191-64ee-4a0c-9e9a-4ed7374436c2">
+<img width="461" alt="augplug_2" src="https://github.com/user-attachments/assets/7244a9cd-67a8-4663-a23a-249645983737">
 
